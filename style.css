@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8e8f4, #e8f0ff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #8aaae5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+h2 {
+  text-align: center;
+  color: #5a73c9;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #5a73c9;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3b56b2;
+}
+
+footer {
+  text-align: center;
+  background-color: #8aaae5;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.result-box {
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffffc9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
